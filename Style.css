@@ -1,0 +1,149 @@
+.menu
+{
+    height: 50px;
+    width: 102%;
+    margin-left: -17px;
+    background-color: blueviolet;
+}
+
+.menu ul
+{
+    word-spacing: 35px;
+    margin-top: -10px;
+    list-style-type: none;
+    padding-left: 60px;
+}
+
+.menu li
+{
+    margin-top: 12px;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.menu a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.Inicial
+{
+    padding-top: 100px;
+    padding-left: 200px;
+    line-height: 10px;
+}
+
+.Inicial img
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    float: left;
+}
+
+.Inicial h2
+{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.Inicial p
+{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 200px;
+}
+
+.Sobre
+{
+    margin-left: 100px;
+}
+
+.Sobre h2
+{
+    color: white;
+    padding-top: 50px;
+    font-size: 28px;
+}
+
+.Sobre p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.Sobre li
+{
+    color: white;
+    font-size: 20px;
+}
+
+.Quadrado
+{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: blueviolet;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    float: left;
+}
+
+.Quadrado img
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 180px;
+    width: 150px;
+}
+
+.Quadrado hr
+{
+    width: 80%;
+}
+
+.Titulo
+{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.Descricao
+{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+}
+
+.Rodape
+{
+    margin-top: 235px;
+    margin-left: -18px;
+    padding-left: 80%;
+    padding-top: 10px;
+    width: 22%;
+    font-size: 14px;
+    background-color: blueviolet;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.Rodape img
+{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.Rodape ul
+{
+    list-style-type: none;
+}
