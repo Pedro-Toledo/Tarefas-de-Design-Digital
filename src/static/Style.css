@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+body
+{
+    background-color: rgb(25, 25, 40);
+}
+
 .menu
 {
     height: 50px;
     width: 102%;
     margin-left: -1.32%;
     background-color: #8a2be2;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .menu ul
@@ -38,6 +46,7 @@
 {
     padding-top: 90px;
     line-height: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Inicial table
@@ -72,6 +81,7 @@
 .Sobre
 {
     margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Sobre h2
@@ -93,16 +103,22 @@
     font-size: 20px;
 }
 
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .Quadrado
 {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 50px auto;
     background-color: blueviolet;
     width: 200px;
+    height: 410px;
     border: 1px solid black;
     border-radius: 10%;
     text-align: center;
-    float: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Quadrado img
@@ -151,6 +167,7 @@
     background-color: blueviolet;
     padding-bottom: 10px;
     line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Rodape img
@@ -233,6 +250,18 @@
     .Inicial img
     {
         margin-left: 25%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .grid
+    {
+        grid-template-columns: auto;
+    }
+    .Quadrado
+    {
+        margin: 20px auto;
     }
 }
 
