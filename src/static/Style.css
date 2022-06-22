@@ -255,6 +255,15 @@ body
 
 @media (max-width: 450px)
 {
+    .menu ul
+    {
+        padding-left: 20px;
+        word-spacing: 25px;
+    }
+    .menu li
+    {
+        font-size: 20px;
+    }
     .grid
     {
         grid-template-columns: auto;
@@ -269,18 +278,8 @@ body
 {
     .menu
     {
-        height: 40px;
         width: 104%;
         margin-left: -2%;
-    }
-    .menu ul
-    {
-        word-spacing: 25px;
-        padding-left: 40px;
-    }
-    .menu li
-    {
-        font-size: 20px;
     }
     .Rodape
     {
